@@ -1,8 +1,8 @@
 body {
-font-family: 'Roboto', sans-serif;
-background-color: white;
-margin-left: 20px;
-margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .h1{
@@ -20,15 +20,15 @@ margin-right: 20px;
 }
 
 .media{
-    display: flex;
-    justify-content: right;
-    margin-right: 20px;
+    position: relative;
+    float: right;
+    bottom: 50px;
 }
 
 .container{
     background-color: rgb(170, 206, 155, 0.2);
     padding: 80px 30px;
-
+    margin-bottom: 40px;
 }
 
 .welcome{
@@ -62,8 +62,25 @@ margin-right: 20px;
     margin-top: 20px;
 }
 
+.pages{
+    text-align: center;
+    
+}
+
+.pages > input{
+    color: #AACE9B;
+    border-color: #AACE9B;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+    margin-left: 15px;
+    margin-bottom: 100px;
+}
+
 .line{
     border-bottom: 3px solid #E3DDDD;
+    margin-bottom: 50px;
 }
 
 .line-2{
@@ -72,8 +89,8 @@ margin-right: 20px;
 }
 
 #line-3{
-    border-bottom: 3px solid #AACE9B;
-    margin-top: 10px;
+    border-bottom: 6px solid #AACE9B;
+    margin-bottom: 70px;
 }
 
 #line-4{
@@ -97,12 +114,19 @@ margin-right: 20px;
 }
 
 .inline{
-    display: inline;
+    margin-bottom: 30px;
 }
 
 .block {
     display: inline-block;
-    width: 700px;
+    width: 500px;
+    margin-left: 105px;
+    margin-right: 125px;
+}
+
+.block-2 {
+    display: inline-block;
+    margin-left: 145px;
 }
 
 .note {
@@ -149,5 +173,59 @@ margin-right: 20px;
 
 .card{
     position: relative;
-    top: 80px;
+    top: 100px;
+    right: 40px;
+}
+
+.letter{
+    position: relative;
+    right: 100px;
+}
+
+.media-2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.media-2 > img{
+    margin-left: 15px;
+}
+
+#city{
+    text-align: center;
+}
+
+.form{
+    float: left;
+    width: 400px;
+}
+
+.form > input{
+    width: 350px;
+}
+
+.select{
+    display: inline-block;
+    top: 30px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+#format{
+    width: 600px;
+}
+
+#text-area{
+    width: 1470px;
+    margin-bottom: 30px;
+}
+
+#clear{
+    color: #373867;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 50px;
 }

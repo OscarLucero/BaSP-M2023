@@ -39,7 +39,7 @@
             <p>AAA xxx, Rosario, Argentina, CP 2000</p> -->
             <div class="media">
                 <img class="align" src="assets/imgs/in.png" alt="In">
-                <img class="align" src="assets/imgs/twt.jpg" alt="Twitter">
+                <img class="align" src="assets/imgs/twt.png" alt="Twitter">
                 <img class="align" src="assets/imgs/fcb.png" alt="Facebook">
                 <img class="align" src="assets/imgs/insta.png" alt="Instagram">
                 <img class="align" src="assets/imgs/git-hub.png" alt="GitHub">
@@ -124,27 +124,39 @@
             </section>
             <section>
                 <div class="line"></div>
-                <h2 class="note-2">Contact</h2>
                 <form>
-                    <h3 class="note-3">Name</h3>
-                    <input type="text" name="Name" placeholder="Enter Your Name" class="Campo">
-                    <h3 class="note-3">Last Name</h3>
-                    <input type="text" name="Name" placeholder="Enter Your Last Name" class="Campo">
-                    <h3 class="note-3">Email</h3>
-                    <input type="email" name="Email" placeholder="Enter Your Email" class="Campo">
-                    <h3 class="note-3">Contact Reason</h3>
-                    <div class="select">
-                        <select name="format" id="format">
-                        <option selected disabled> Choose </option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>  
-                        </select>
+                    <h2 class="note-2">Contact</h2>
+                    <div class="form">
+                        <h3 class="note-3">Name</h3>
+                        <input type="text" name="Name" placeholder="Enter Your Name" class="Campo">
                     </div>
-                    <h3>Message</h3>
-                    <textarea name="Message" placeholder="Enter Your Message" cols="30" rows="10"></textarea>
-                    <input type="button" value="Clear">
-                    <input type="button" value="Send">
+                    <div class="form">
+                        <h3 class="note-3">Last Name</h3>
+                        <input type="text" name="Name" placeholder="Enter Your Last Name" class="Campo">
+                    </div>
+                    <div class="form">
+                        <h3 class="note-3">Email</h3>
+                        <input type="email" name="Email" placeholder="Enter Your Email" class="Campo">
+                    </div>             
+                    <div class="select">
+                        <h3 class="note-3">Contact Reason</h3>
+                        <select name="format" id="format">
+                            <option selected disabled> Choose </option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>  
+                        </select>
+                        <h3>Message</h3>
+                        <textarea
+                            name="Message"
+                            placeholder="Enter Your Message"
+                            cols="30"
+                            rows="10"
+                            id="text-area">
+                        </textarea>
+                        <input id="clear" type="submit" value="Clear">
+                        <input class="learn-more" type="submit" value="Send It">
+                    </div>
                 </form>
             </section>
             <section>
@@ -182,7 +194,7 @@
             <div class="line"></div>
             <section>
                 <div class="inline">
-                    <div class="block">
+                    <div class="block-2">
                         <img class="act" src="assets/imgs/Activities.jpg" alt="Activities">
                         <div class="note">
                             <h2 class="note-2">Activities</h2>
@@ -195,53 +207,65 @@
                             </ol>
                         </div>
                     </div>
-                    <div class="block">
+                    <div class="block-2">
                         <img class="card" src="assets/imgs/Black Membership.png" alt="BMembership">
                         <div class="note">
-                            <h2 class="note-2">Black Membership</h2>
+                            <div class="letter">
+                                <h2>Black Membership</h2>
+                                <ol>
+                                    <li>1. Free Pass To The Weight Room</li>
+                                    <li>2. Free Pass To The Lessons (Previous Enrolled)</li>
+                                    <li>3. Personalized Follow up By a Trainer</li>
+                                    <li>4. Grid Visualization</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-2">
+                        <img class="act" src="assets/imgs/Classic Membership.jpg" alt="CMembership">
+                        <div class="note">
+                            <h2 class="note-2">Classic Membership</h2>
                             <ol>
-                                <li>1. Free Pass To The Weight Room</li>
-                                <li>2. Free Pass To The Lessons (Previous Enrolled)</li>
-                                <li>3. Personalized Follow up By a Trainer</li>
-                                <li>4. Grid Visualization</li>
+                                <li>1.Free Pass To The Weight Room</li>
+                                <li>2. Personalized Follow up By a Trainer</li>
+                                <li>3. Grid Visualization</li>
+                            </ol>
+                        </div>    
+                    </div>
+                    <div class="block-2">
+                        <img class="act" src="assets/imgs/Only Classes Membership.jpg" alt="OCMembership">
+                        <div class="note">
+                            <h2 class="note-2">Only Classic Membership</h2>
+                            <ol>
+                                <li>1.Free Pass To The Weight Room</li>
+                                <li>2. Grid Visualization</li>
                             </ol>
                         </div>
                     </div>
-                    <h2>Classic Membership</h2>
-                    <img src="assets/imgs/Classic Membership.jpg" alt="CMembership">
-                    <ol>
-                        <li>1.Free Pass To The Weight Room</li>
-                        <li>2. Personalized Follow up By a Trainer</li>
-                        <li>3. Grid Visualization</li>
-                    </ol>
-                    <h2>Only Classic Membership</h2>
-                    <img src="assets/imgs/Only Classes Membership.jpg" alt="OCMembership">
-                    <ol>
-                        <li>1.Free Pass To The Weight Room</li>
-                        <li>2. Grid Visualization</li>
                 </div>
-                </ol>
-                <div id="line-3"></div>
-                <input type="button" value="PREV">
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="...">
-                <input type="button" value="NEXT">
+                <div class="pages">
+                    <input type="button" value="PREV">
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="...">
+                    <input type="button" value="NEXT">
+                </div>
             </section>
         </main>
+        <div id="line-3"></div>
         <footer>
-            <ul>
-                <img src="assets/imgs/fcb.png" alt="Facebook">
-                <img src="assets/imgs/git-hub.png" alt="GitHub">
+            <div class="media-2">
                 <img src="assets/imgs/in.png" alt="In">
+                <img src="assets/imgs/twt.png" alt="Twitter">
+                <img src="assets/imgs/fcb.png" alt="Facebook">
                 <img src="assets/imgs/insta.png" alt="Instagram">
-                <img src="assets/imgs/twt.jpg" alt="Twitter">
-            </ul>
-            <h6>Rosario, Argentina</h6>
-            <h6>Copyright © 2022 Radium Rocket. All rights reserved.</h6>
+                <img src="assets/imgs/git-hub.png" alt="GitHub">  
+            </div>
+            <h6 class="media-2">Rosario, Argentina</h6>
+            <h6 class="media-2">Copyright © 2022 Radium Rocket. All rights reserved.</h6>
         </footer>
     </body>
 </html>
