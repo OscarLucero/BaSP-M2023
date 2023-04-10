@@ -11,6 +11,10 @@ but only using pure html and respecting the semantics of it.
 ## ***Week 03***
 In this week we must first correct the errors marked by tutors from week two. Once we have the code fixed we will start working on our css adding it to our html. It should look similar to the figma landing page from week one.
 
+## ***Week 04***
+In week 4 of the bootcamp we will have to apply flexbox inside our css to make our html responsive. Starting with mobile first and making it display correctly on all screens. 
+
+
 ### ***Project***
 The project is about creating a website about a gym (MegaRocket).This page will give users the option to join the gym by choosing the membership they want or would most benefit from. It will also have a management system for administrators.
 **[GitHub Project](https://github.com/OscarLucero/BaSP-M2023)**
