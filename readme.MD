@@ -12,7 +12,8 @@ but only using pure html and respecting the semantics of it.
 In this week we must first correct the errors marked by tutors from week two. Once we have the code fixed we will start working on our css adding it to our html. It should look similar to the figma landing page from week one.
 
 ## ***Week 04***
-In week 4 of the bootcamp we will have to apply flexbox inside our css to make our html responsive. Starting with mobile first and making it display correctly on all screens. 
+In week 4 of the bootcamp we will have to apply flexbox inside our css to make our html responsive. Starting with mobile first and making it display correctly on all screens.
+**[GitHub Pages](https://oscarlucero.github.io/BaSP-M2023Week-04)**
 
 
 ### ***Project***
