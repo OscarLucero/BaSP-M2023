@@ -14,8 +14,8 @@ console.log("El texto en mayúsculas es: " + textoMayusculas);
 un nuevo string con los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring). */
 console.log('-Exercise 2.b:');
 
-const cadena = "Campeonato";
-const nuevaCadena = cadena[0] + cadena[1] + cadena[2] + cadena[3] + cadena[4];
+var cadena = "Campeonato";
+var nuevaCadena = cadena.substring(0,5);
 console.log(nuevaCadena); 
 
 /* Ejercicio c. Crear una variable de tipo string con al menos 10 caracteres y generar un 
@@ -45,7 +45,6 @@ var newString = firstLetter + restOfLetters;
 
 console.log(newString);
 
-
 /* Ejercicio e. Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco.
 Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf). */
 console.log('-Exercise 2.e:');
@@ -62,7 +61,7 @@ nuevo string que tenga la primera letra de ambas palabras en mayúscula y las de
 (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +). */
 console.log('-Exercise 2.f:');
 
-var originalString2 = "copa mundial de fútbol";
+var originalString2 = "campeonato mundial";
 
 var firstSpaceIndex2 = originalString2.indexOf(" ");
 
