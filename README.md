@@ -13,8 +13,11 @@ In this week we must first correct the errors marked by tutors from week two. On
 
 ## ***Week 04***
 In week 4 of the bootcamp we will have to apply flexbox inside our css to make our html responsive. Starting with mobile first and making it display correctly on all screens.
-**[GitHub Pages](https://oscarlucero.github.io/BaSP-M2023Week-04)**
+**[GitHub Pages](https://oscarlucero.github.io/BaSP-M2023/Week-04/)**
 
+## ***Week 05***
+This week was different because we didn't have to work on a common file with the group but were javascript exercises. The list of exercises was Variables and Operators, Strings, Arrays, If Else, For, Functions.
+**[GitHub Pages](https://oscarlucero.github.io/BaSP-M2023/Week-05/)**
 
 ### ***Project***
 The project is about creating a website about a gym (MegaRocket).This page will give users the option to join the gym by choosing the membership they want or would most benefit from. It will also have a management system for administrators.

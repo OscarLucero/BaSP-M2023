@@ -222,7 +222,6 @@
         justify-content: flex-start;
     }
 
-
     .form > input, .form select, .form textarea{
         width: 100%;
     }
@@ -278,8 +277,6 @@
         text-decoration:none;
     }
 
-    
-
     .nav{
         display: flex;
         flex-direction: column;
@@ -291,6 +288,7 @@
         margin-left: 40px;
 
     }
+
     .data-container{
         display: flex;
         align-items: center;
@@ -346,7 +344,6 @@
         left: 20px;
         z-index: 4;
         color: #ffffff;
-
     }
 
     .title-container > h3{
@@ -414,7 +411,6 @@
 
     .img-cont{
         margin: 30px;
-
     }
 
     .act-container{
@@ -425,10 +421,7 @@
         justify-content: space-around;        
     }
 
-    .ol-container{
-                
+    .ol-container{       
         width: 50%;
     }
-
 }
-
