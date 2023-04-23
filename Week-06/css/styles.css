@@ -1,0 +1,12 @@
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(min-width: 599px){
+    textarea{
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+h1{
+    font-size: 15px;
+    color: rgb(182, 181, 181);
+    margin-left: 20px;
+    width: 150px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #AACE9B;
+}
+
+.ham-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.header-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.align{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+@media(min-width: 1025px){
+    .ham-icon{
+        display: none;
+    }
+}
