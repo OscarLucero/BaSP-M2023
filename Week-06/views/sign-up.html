@@ -12,7 +12,9 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
     <link rel="stylesheet" type="text/css" href="../css/header.css" />
     <link rel="stylesheet" type="text/css" href="../css/sign-up.css" />
-    <title>Document</title>
+    <script src="../js/sign-up.js" type="text/javascript"></script>
+    <link rel="icon" href="../../assets/imgs/rr.ico" />
+    <title>Sing Up</title>
   </head>
   <body>
     <header>
@@ -23,50 +25,125 @@
     <main>
       <div class="container-singup">
         <div class="form-singup">
-          <form>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your Name" />
-              <label for="">Name</label>
+          <form class="f-signup" action="process.php" method="POST" id="forms">
+            <div class="sign-up">
+              <label>Name</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="Name"
+                id="name"
+              />
+              <p class="error error-view">Invalid Name</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your Last Name" />
-              <label for="">Last Name</label>
+            <div class="sign-up">
+              <label>Last Name</label>
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Last Name"
+                id="l-name"
+              />
+              <p class="error error-view">Invalid Last Name</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your DNI" />
-              <label for="">DNI</label>
+            <div class="sign-up">
+              <label>DNI</label>
+              <input type="text" name="first-name" placeholder="DNI" id="dni" />
+              <p class="error error-view">Dni is invalid</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your Birth" />
-              <label for="">Birth</label>
+            <div class="sign-up">
+              <label>Date of Birth</label>
+              <input
+                type="date"
+                name="last-name"
+                placeholder="DD/MM/AA"
+                id="date"
+              />
+              <p class="error error-view">Date of birthday is invalid</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your Phone" />
-              <label for="">Phone</label>
+            <div class="sign-up">
+              <label>Phone Number</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="Phone Number"
+                id="phone"
+              />
+              <p class="error error-view">Phone Number is invalid</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your Adress" />
-              <label for="">Adress</label>
+            <div class="sign-up">
+              <label>Address</label>
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Address"
+                id="address"
+              />
+              <p class="error error-view">Address is invalid</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your Location" />
-              <label for="">Location</label>
+            <div class="sign-up">
+              <label>Location</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="Location"
+                id="locate"
+              />
+              <p class="error error-view">Location is invalid</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your Postal Code" />
-              <label for="">Postal Code</label>
+            <div class="sign-up">
+              <label>Area Code</label>
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Area Code"
+                id="code"
+              />
+              <p class="error error-view">Area code is invalid</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Type Your Password" />
-              <label for="">Password</label>
+            <div class="sign-up">
+              <label>Email</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="example@gmail.com"
+                id="email"
+              />
+              <p class="error error-view">Invalid Email</p>
             </div>
-            <div class="input-singup">
-              <input type="text" placeholder="Repeat Your Password" />
-              <label for=""> Repeat Password</label>
+            <div class="sign-up">
+              <label>Password</label>
+              <input
+                type="password"
+                name="last-name"
+                placeholder="***********"
+                id="password"
+              />
+              <p class="error error-view">Invalid Password</p>
+            </div>
+            <div class="sign-up">
+              <label>Confirm Password</label>
+              <input
+                type="password"
+                name="first-name"
+                placeholder="***********"
+                id="conf-password"
+              />
+              <p class="error error-view">Passwords do not match</p>
             </div>
             <div class="button-container">
-              <button class="button-singup">Home</button>
-              <button class="button-singup">Sing Up</button>
+              <button class="button-login">
+                <a href="../views/index.html">Home</a>
+              </button>
+              <div>
+                <input
+                  class="button-login"
+                  type="button"
+                  name="submit"
+                  value="Sign Up"
+                  id="sign-up"
+                />
+              </div>
             </div>
           </form>
         </div>

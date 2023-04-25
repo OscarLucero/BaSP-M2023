@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Log In</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="../css/reset.css" />
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/footer.css" />
     <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <link rel="icon" href="../../assets/imgs/rr.ico" />
+    <script src="../js/login.js" type="text/javascript"></script>
   </head>
   <body>
     <header>
@@ -26,21 +28,31 @@
           <form>
             <h2>Mega Rocket</h2>
             <h3>Login</h3>
-            <div class="input-login">
-              <input type="text" placeholder="Type Your Email" />
+            <div class="login">
               <label for="">Email</label>
+              <input type="email" placeholder="example@gmail.com" />
+              <p class="error error-view">Invalid Email</p>
+              <div class="img-login">
+                <img src="../../assets/imgs/email.png" alt="Email" />
+              </div>
             </div>
-            <div>
-              <input type="text" placeholder="Type Your Password" />
+            <div class="login">
               <label for="">Password</label>
+              <input type="password" placeholder="Type Your Password" />
+              <p class="error error-view" id="error">Invalid Password</p>
+              <div class="img-login">
+                <img src="../../assets/imgs/lock.png" alt="Password" />
+              </div>
             </div>
-            <div>
-              <a>Forgot Password?</a>
-              <a>Create a Partner Account</a>
-            </div>
+            
             <div class="button-container">
-              <button class="button-login">Home</button>
-              <button class="button-login">Sing In</button>
+              <button  class="button-login">
+                <a href="../views/index.html">Home</a> 
+              </button>
+              <div>
+              <input class="button-login" type="button" name="submit" value="Login" id="login">
+              </div>
+            </input>
             </div>
           </form>
         </div>
