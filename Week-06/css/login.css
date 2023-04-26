@@ -51,6 +51,9 @@ form > h3{
 }
 
 .img-login{
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
 }
 
 .form-container{
@@ -65,8 +68,7 @@ form > h3{
 
 .button-container{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
     
 }
@@ -101,21 +103,25 @@ form > h3{
 
 .login{
     display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
 }
-.login label{
+
+.login-input > label{
     display: flex;
     padding: 10px 0px 10px 0px;
     color: #373867;
     font-weight: bold;
 }
-.login input{
+
+.login-input{
     display: flex;
-    padding: 5px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
+
 .buttons{
     display: flex;
     justify-content: center;
@@ -138,6 +144,8 @@ form > h3{
 }
 input[type=text].input-error, input[type=password].input-error{
     border: red 1px solid;
+    width: 97%;
+    height: 20%;
 }
 .error-view{
     display: none;

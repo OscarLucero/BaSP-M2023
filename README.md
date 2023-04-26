@@ -27,7 +27,7 @@ This week was different because we didn't have to work on a common file with the
 ## **_Week 06_**
 
 On this week everything change, now i had a new team and tutor. In terms of the work we continue with JS but now using our landing (Week04) adding singup, login and correcting marked errors.
-**[GitHub Pages](https://oscarlucero.github.io/BaSP-M2023/Week-06/)**
+**[GitHub Pages](https://oscarlucero.github.io/BaSP-M2023/Week-06/views/)**
 
 ### **_Project_**
 

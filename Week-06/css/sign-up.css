@@ -28,6 +28,12 @@ h1{
     border-bottom: 6px solid #AACE9B;
 }
 
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 20px;
+    height: 40px;
+}
 
 .sign-up > input{
     width: 450px;
@@ -35,21 +41,19 @@ h1{
 
 .form-singup{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 750px;
     width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: white;
     border-radius: 5%;
 }
 
 .container-singup{
+    display: flex;
+    flex-direction: column;
     background-color: rgba(151, 211, 168, 0.2);
     height: 800px;
-    display: flex;
     align-items: center;
     justify-content: center;
     color: #373867;
@@ -61,7 +65,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 30%;
 }
 
 .button-login{

@@ -29,17 +29,21 @@
             <h2>Mega Rocket</h2>
             <h3>Login</h3>
             <div class="login">
-              <label for="">Email</label>
-              <input type="email" placeholder="example@gmail.com" />
-              <p class="error error-view">Invalid Email</p>
+              <div class="login-input">
+                <label for="">Email</label>
+                <input type="text" placeholder="example@gmail.com" />
+                <span class="error error-view">Invalid Email</span>
+              </div>
               <div class="img-login">
                 <img src="../../assets/imgs/email.png" alt="Email" />
               </div>
             </div>
             <div class="login">
-              <label for="">Password</label>
-              <input type="password" placeholder="Type Your Password" />
-              <p class="error error-view" id="error">Invalid Password</p>
+              <div class="login-input">
+                <label for="">Password</label>
+                <input type="password" placeholder="Type Your Password" />
+                <span class="error error-view" id="error">Invalid Password</span>
+              </div>
               <div class="img-login">
                 <img src="../../assets/imgs/lock.png" alt="Password" />
               </div>
@@ -50,9 +54,10 @@
                 <a href="../views/index.html">Home</a> 
               </button>
               <div>
-              <input class="button-login" type="button" name="submit" value="Login" id="login">
+                <input 
+                  class="button-login" type="button" name="submit" value="Login" id="login">
+                </input>
               </div>
-            </input>
             </div>
           </form>
         </div>

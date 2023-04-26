@@ -1,6 +1,6 @@
 window.onload = function () {
     var logButton = document.getElementById('login');
-    var divTxt = document.getElementsByClassName('login');
+    var divTxt = document.getElementsByClassName('login-input');
     emailTxtDiv = divTxt[0];
     passwordTxtDiv = divTxt[1];
     emailInput = emailTxtDiv.children[1];
@@ -109,3 +109,4 @@ function hError(divsTxt){
     divChild[1].classList.remove('input-error');
     divChild[2].classList.add('error-view');
 }
+
