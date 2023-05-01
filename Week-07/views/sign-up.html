@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/sign-up.css" />
+    <script src="../js/sign-up.js" type="text/javascript"></script>
+    <link rel="icon" href="../../assets/imgs/rr.ico" />
+    <title>Sing Up</title>
+  </head>
+  <body>
+    <header>
+      <div class="h1-singup">
+        <h1>Mega Rocket GYM</h1>
+      </div>
+    </header>
+    <main>
+      <div class="container-singup">
+        <div class="form-singup">
+          <form class="f-signup" action="process.php" method="POST" id="forms">
+            <div class="sign-up">
+              <label>Name</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="Name"
+                id="name"
+              />
+              <span class="error error-view">Invalid Name</span>
+            </div>
+            <div class="sign-up">
+              <label>Last Name</label>
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Last Name"
+                id="l-name"
+              />
+              <span class="error error-view">Invalid Last Name</span>
+            </div>
+            <div class="sign-up">
+              <label>DNI</label>
+              <input type="text" name="first-name" placeholder="DNI" id="dni" />
+              <span class="error error-view">Dni is invalid</span>
+            </div>
+            <div class="sign-up">
+              <label>Date of Birth</label>
+              <input
+                type="date"
+                name="last-name"
+                placeholder="DD/MM/AA"
+                id="date"
+              />
+              <span class="error error-view">Date of birthday is invalid</span>
+            </div>
+            <div class="sign-up">
+              <label>Phone Number</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="Phone Number"
+                id="phone"
+              />
+              <span class="error error-view">Phone Number is invalid</span>
+            </div>
+            <div class="sign-up">
+              <label>Address</label>
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Address"
+                id="address"
+              />
+              <span class="error error-view">Address is invalid</span>
+            </div>
+            <div class="sign-up">
+              <label>Location</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="Location"
+                id="locate"
+              />
+              <span class="error error-view">Location is invalid</span>
+            </div>
+            <div class="sign-up">
+              <label>Area Code</label>
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Area Code"
+                id="code"
+              />
+              <span class="error error-view">Area code is invalid</span>
+            </div>
+            <div class="sign-up">
+              <label>Email</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="example@gmail.com"
+                id="email"
+              />
+              <span class="error error-view">Invalid Email</span>
+            </div>
+            <div class="sign-up">
+              <label>Password</label>
+              <input
+                type="password"
+                name="last-name"
+                placeholder="***********"
+                id="password"
+              />
+              <span class="error error-view">Invalid Password</span>
+            </div>
+            <div class="sign-up">
+              <label>Confirm Password</label>
+              <input
+                type="password"
+                name="first-name"
+                placeholder="***********"
+                id="conf-password"
+              />
+              <span class="error error-view">Passwords do not match</span>
+            </div>
+            <div class="button-container">
+              <button class="button-login">
+                <a href="../views/index.html">Home</a>
+              </button>
+              <div>
+                <input
+                  class="button-login"
+                  type="button"
+                  name="submit"
+                  value="Sign Up"
+                  id="sign-up"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-singup">
+      <h3>Mega Rocket S.A</h3>
+    </footer>
+  </body>
+</html>

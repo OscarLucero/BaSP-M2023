@@ -1,0 +1,14 @@
+#line-3 {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  border-bottom: 6px solid #aace9b;
+}
+
+.media-2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.media-2 > img {
+  margin-left: 15px;
+}
