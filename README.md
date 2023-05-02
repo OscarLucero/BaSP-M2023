@@ -29,6 +29,11 @@ This week was different because we didn't have to work on a common file with the
 On this week everything change, now i had a new team and tutor. In terms of the work we continue with JS but now using our landing (Week04) adding singup, login and correcting marked errors.
 **[GitHub Pages](https://oscarlucero.github.io/BaSP-M2023/Week-06/views/)**
 
+## **_Week 07_**
+
+In the second week of stage two, we must implement fetch function to the singup and login using an api to confirm the data. The singup information is being stored in the local storage to keep the data in case we refresh the web.
+**[GitHub Pages](https://oscarlucero.github.io/BaSP-M2023/Week-07/views/)**
+
 ### **_Project_**
 
 The project is about creating a website about a gym (MegaRocket).This page will give users the option to join the gym by choosing the membership they want or would most benefit from. It will also have a management system for administrators.
